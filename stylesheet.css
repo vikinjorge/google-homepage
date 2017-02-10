@@ -1,9 +1,132 @@
-body {
-	font-family: Arial, serif;
+#container{
+	position: relative;
+	max-width: 900px;
+	max-height: 1000px;
+	margin: auto auto;
+}
+nav {
+	position: absolute;
+	top: 0;
+	right: -150px;
+	height: 100px;
+}
+#apps {
+  background: url("assets/app.png") no-repeat;
+  height: 35px;
+  width: 35px;
+  vertical-align: middle;
+}
+#apps:hover {
+  background: url("assets/app2.png") no-repeat;
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+}
+#IniSesion{
+	background-color: rgba(74,134,232,1);
+	border-radius: 2px;
+	border: none;
+	color: #ffffff;
+	padding: 7px 5px;
 	font-size: 11px;
 }
 
-#barraSuperior{
+nav a{
+	text-decoration: none;
+	color: #847e7e;
+	font-family: Arial;
+	margin-left: 5px;
+	font-size: 11px
+}
+
+main {
+	position:  absolute;
+	border: 1px solid black;
+	top: 100px;
+	left: 150px;
+	text-align: center;
+	width: 600px;
+}
+
+#spain{
+		border: 1px solid black;
+	position: relative;
+	display: inline-block;
+	left: -60px;
+	top: -5px;
+	font-family:  Arial;
+	color: rgba(74,134,232,1);
+
+}
+#logo{
+		border: 1px solid black;
+
+}
+
+#InBusqueda{
+
+	border: 1px solid black;
+	padding-top: 15px;
+}
+#CampoBusqueda{
+	width: 400px;
+	height: 25px;
+}
+#Botonera{
+	padding: 15px;
+}
+.Boton{
+	background-color: rgba(220, 220, 220, 0.4);
+	border: none;
+	color: #000000;
+	padding: 7px 5px;
+	font-size: 11px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+#internetSeguro{
+	position: relative;
+
+}
+#imgsecure{
+	height: 50px;
+	width: 50px;
+	vertical-align: middle;
+}
+
+#foot{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+#footL{
+	float: left;
+}
+#footR{
+	float: right;
+}
+
+
+
+/*#publi{
+	text-align: left;
+}
+#priva{
+	text-align: right;
+	margin-right: 100px;
+}
+
+/*arraSuperior{
 	border: 1px solid black;
 	text-align: right;
 
@@ -20,12 +143,13 @@ body {
 	background-image: url("assets/app.png");
 }
 
-ol li{
+#barramen{
 	text-decoration: none;
 	display: inline-block;
 	padding: 5px;
 
 }
+
 
 
 
@@ -110,22 +234,20 @@ box-shadow: 0 0 2px 2px rgba(0,0,0,0.16) ;
 
 }
 
-#copyright{
-	border: 1px solid black;
-	background-color: #ffffff;
-	
-}
-#copyrightLeft{
-	border: 1px solid black;
-	background-color: #ffffff;
+
+
+#publi{
+	display: inline-block;
 	text-align: left;
-	width: 50%;
-	display: inline-block;
-}
-#copyrightRight{
-	border: 1px solid black;
 	background-color: #ffffff;
-	text-align: right;
-	width: 50%;
-	display: inline-block;
+	width: 49%;
 }
+#priva{
+	display: inline-block;
+	text-align: right;
+	background-color: #ffffff;
+	width: 50%;
+
+	
+	
+}*/
