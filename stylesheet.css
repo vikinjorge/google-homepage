@@ -18,8 +18,8 @@ nav {
 }
 #apps:hover {
   background: url("assets/app2.png") no-repeat;
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   vertical-align: middle;
 }
 #IniSesion{
@@ -33,7 +33,7 @@ nav {
 
 nav a{
 	text-decoration: none;
-	color: #847e7e;
+	color: #ffffff ;
 	font-family: Arial;
 	margin-left: 5px;
 	font-size: 11px
@@ -41,34 +41,52 @@ nav a{
 
 main {
 	position:  absolute;
-	border: 1px solid black;
 	top: 100px;
 	left: 150px;
 	text-align: center;
 	width: 600px;
 }
 
-#spain{
-		border: 1px solid black;
-	position: relative;
-	display: inline-block;
-	left: -60px;
-	top: -5px;
-	font-family:  Arial;
-	color: rgba(74,134,232,1);
+
 
 }
 #logo{
-		border: 1px solid black;
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+		
+#spain{
+	position: absolute;
+	display: inline-block;
+	left: 420px;
+	top: 110px;
+	font-family:  Arial;
+	color: rgba(74,134,232,1);
+}
+
+#imgLogo{
+	width: 400px;
 
 }
 
 #InBusqueda{
 
-	border: 1px solid black;
 	padding-top: 15px;
 }
+
+#CampoBusqueda:hover{
+	border: 1px solid #dcdcdc;
+	height: 25px;
+}
+
+#CampoBusqueda:focus{
+	border: 1px solid #dcdcdc;
+	height: 25px;
+}
+
 #CampoBusqueda{
+	border: 1px solid #eee;
 	width: 400px;
 	height: 25px;
 }
@@ -76,8 +94,8 @@ main {
 	padding: 15px;
 }
 .Boton{
+	border: 1px solid #eee;
 	background-color: rgba(220, 220, 220, 0.4);
-	border: none;
 	color: #000000;
 	padding: 7px 5px;
 	font-size: 11px;
@@ -85,15 +103,20 @@ main {
 	margin-left: 10px;
 }
 
-
-
-
-
-
-
+.Boton:hover{
+	background-color: rgba(220, 220, 220, 0.4) ;
+	border: 1px #dcdcdc solid;
+	color: #000000;
+	padding: 7px 5px;
+	font-size: 11px;
+	font-weight: bold;
+	margin-left: 10px;
+}
 
 #internetSeguro{
 	position: relative;
+	font-family: Arial;
+	font-size: 12px;
 
 }
 #imgsecure{
@@ -102,21 +125,52 @@ main {
 	vertical-align: middle;
 }
 
+#googleTambien{
+		font-family: Arial;
+	font-size: 12px;
+
+}
+
+
+
 #foot{
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 12px;
+	color: rgba(33, 22, 22, 0.07);
 	position: fixed;
 	bottom: 0;
 	left: 0;
 	width: 100%;
 	text-align: center;
+	background-color: rgba(220, 220, 220, 0.4);
+	padding: 15px;
+
+	
 }
 #footL{
 	float: left;
 }
 #footR{
 	float: right;
+
+}
+#footR a {
+	padding-right:   50px;
+	text-decoration: none;
+}
+#footL a {
+	padding-left:  50px;
+	text-decoration: none;
 }
 
+a:hover, #footL a:hover, #footR a:hover {
+	text-decoration: underline;
+}
 
+nav a:visited, #footL a:visited, #footR a:visited{
+	color: rgba(33, 22, 22, 0.07);
+}
 
 /*#publi{
 	text-align: left;
